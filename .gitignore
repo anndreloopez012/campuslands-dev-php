@@ -1,0 +1,12 @@
+vendor/
+.env
+.env.local
+*.log
+.DS_Store
+.idea/
+.vscode/
+.phpunit.cache/
+coverage/
+build/
+dist/
+graphify-out/

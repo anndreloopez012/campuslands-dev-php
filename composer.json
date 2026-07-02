@@ -1,0 +1,17 @@
+{
+  "name": "campuslands/dev-php",
+  "description": "Ejercicios progresivos de PHP para Campuslands",
+  "type": "project",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Campuslands\\Php\\": "src/"
+    }
+  },
+  "scripts": {
+    "check": "php scripts/check_structure.php"
+  }
+}
